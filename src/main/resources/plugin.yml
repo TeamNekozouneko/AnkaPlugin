@@ -1,0 +1,11 @@
+name: AnkaPlugin
+version: '${project.version}'
+main: com.amedouhu.ankaplugin.AnkaPlugin
+api-version: '1.20'
+commands:
+  aku:
+    description: AnkaPluginのアク禁コマンドです。
+    usage: /aku <player>
+  cls:
+    description: AnkaPluginのクリアコマンドです。
+    usage: /cls
