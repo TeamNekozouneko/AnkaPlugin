@@ -43,7 +43,6 @@ public class PlayerChat implements Listener {
             StringBuilder resStr = new StringBuilder();
             for (int n = b; n < message.length(); n++) {
                 try {
-                    sender.sendMessage(String.valueOf(message.charAt(n)));
                     Integer.parseInt(String.valueOf(message.charAt(n)));
                     resStr.append(message.charAt(n));
                 }catch (Exception ex) {break;}
